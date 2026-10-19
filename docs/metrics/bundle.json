@@ -1,0 +1,172 @@
+{
+  "timestamp": "2026-10-19T10:29:41.609Z",
+  "before": {
+    "dir": "C:\\Users\\igoto\\OneDrive\\Рабочий стол\\7 семестр\\РПИ\\Zoomagazin\\baseline\\dist-before",
+    "files": [
+      {
+        "file": "assets/ICL-3Vt_vVxv.jpg",
+        "raw": 39834,
+        "gzip": 33274,
+        "brotli": 32978
+      },
+      {
+        "file": "assets/index-CIAj_gl4.js",
+        "raw": 247206,
+        "gzip": 75803,
+        "brotli": 65365
+      },
+      {
+        "file": "assets/index-DL7SOEXs.css",
+        "raw": 7124,
+        "gzip": 2046,
+        "brotli": 1726
+      },
+      {
+        "file": "assets/leccia-DewGuNps.jpg",
+        "raw": 180328,
+        "gzip": 179512,
+        "brotli": 180333
+      },
+      {
+        "file": "assets/tatneft-DsMqlz_j.png",
+        "raw": 27096,
+        "gzip": 24213,
+        "brotli": 23786
+      },
+      {
+        "file": "favicon.svg",
+        "raw": 9522,
+        "gzip": 1485,
+        "brotli": 1237
+      },
+      {
+        "file": "icons.svg",
+        "raw": 5031,
+        "gzip": 2104,
+        "brotli": 1886
+      },
+      {
+        "file": "index.html",
+        "raw": 479,
+        "gzip": 343,
+        "brotli": 201
+      }
+    ],
+    "js": {
+      "raw": 247206,
+      "gzip": 75803,
+      "brotli": 65365
+    },
+    "css": {
+      "raw": 7124,
+      "gzip": 2046,
+      "brotli": 1726
+    },
+    "images": {
+      "raw": 261811
+    },
+    "totalRaw": 516620,
+    "totalGzip": 318780
+  },
+  "after": {
+    "dir": "C:\\Users\\igoto\\OneDrive\\Рабочий стол\\7 семестр\\РПИ\\Zoomagazin\\dist",
+    "files": [
+      {
+        "file": "assets/ICL-3Vt_vVxv.jpg",
+        "raw": 39834,
+        "gzip": 33274,
+        "brotli": 32978
+      },
+      {
+        "file": "assets/index-DgQVrb5i.js",
+        "raw": 292308,
+        "gzip": 90679,
+        "brotli": 78664
+      },
+      {
+        "file": "assets/index-tFv0214Y.css",
+        "raw": 12309,
+        "gzip": 3003,
+        "brotli": 2620
+      },
+      {
+        "file": "assets/leccia-DewGuNps.jpg",
+        "raw": 180328,
+        "gzip": 179512,
+        "brotli": 180333
+      },
+      {
+        "file": "assets/tatneft-DsMqlz_j.png",
+        "raw": 27096,
+        "gzip": 24213,
+        "brotli": 23786
+      },
+      {
+        "file": "favicon.svg",
+        "raw": 9522,
+        "gzip": 1485,
+        "brotli": 1237
+      },
+      {
+        "file": "icons.svg",
+        "raw": 5031,
+        "gzip": 2104,
+        "brotli": 1886
+      },
+      {
+        "file": "index.html",
+        "raw": 482,
+        "gzip": 336,
+        "brotli": 210
+      }
+    ],
+    "js": {
+      "raw": 292308,
+      "gzip": 90679,
+      "brotli": 78664
+    },
+    "css": {
+      "raw": 12309,
+      "gzip": 3003,
+      "brotli": 2620
+    },
+    "images": {
+      "raw": 261811
+    },
+    "totalRaw": 566910,
+    "totalGzip": 334606
+  },
+  "delta": {
+    "jsRaw": {
+      "before": 247206,
+      "after": 292308,
+      "diff": 45102,
+      "diffPercent": 18.2
+    },
+    "jsGzip": {
+      "before": 75803,
+      "after": 90679,
+      "diff": 14876,
+      "diffPercent": 19.6
+    },
+    "cssRaw": {
+      "before": 7124,
+      "after": 12309,
+      "diff": 5185,
+      "diffPercent": 72.8
+    },
+    "totalRaw": {
+      "before": 516620,
+      "after": 566910,
+      "diff": 50290
+    },
+    "totalGzip": {
+      "before": 318780,
+      "after": 334606,
+      "diff": 15826
+    },
+    "totalKb": {
+      "before": 505
+    }
+  }
+}

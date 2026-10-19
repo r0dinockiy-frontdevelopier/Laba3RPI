@@ -1,58 +1,22 @@
-import { useState } from "react";
-import { lecturers } from "./data/lecturersData";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import Partners from "./components/Partners/Partners";
-import LecturerCard from "./components/LecturerCard/LecturerCard";
-import PersonInfo from "./components/PersonInfo/PersonInfo";
-import Disciplines from "./pages/Disciplines/Disciplines";
-import Tariffs from "./pages/Tariffs/Tariffs";
-import Achievements from "./pages/Achievements/Achievements";
-import styles from "./App.module.css";
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import HomePage from './pages/HomePage/HomePage';
+import LecturersPage from './pages/LecturersPage/LecturersPage';
+import LecturerDetailPage from './pages/LecturerDetailPage/LecturerDetailPage';
+import AboutPage from './pages/AboutPage/AboutPage';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
-  const [selectedLecturer, setSelectedLecturer] = useState(null);
-
   return (
-    <div className={styles.app}>
-      <Header />
-
-      {!selectedLecturer ? (
-        <main>
-          <Hero />
-          <About />
-          <Partners />
-          <section id="lecturers" className={styles.lecturersSection}>
-            <h2 className={styles.sectionTitle}>Наши лекторы</h2>
-            <div className={styles.grid}>
-              {lecturers.map((lecturer) => (
-                <LecturerCard
-                  key={lecturer.id}
-                  lecturer={lecturer}
-                  onClick={() => setSelectedLecturer(lecturer)}
-                />
-              ))}
-            </div>
-          </section>
-        </main>
-      ) : (
-        <main className={styles.profile}>
-          <button
-            className={styles.backBtn}
-            onClick={() => setSelectedLecturer(null)}
-          >
-            ← Назад к списку
-          </button>
-          <PersonInfo lecturer={selectedLecturer} />
-          <div className={styles.pagesWrapper}>
-            <Disciplines disciplines={selectedLecturer.disciplines} />
-            <Tariffs tariffs={selectedLecturer.tariffs} />
-            <Achievements achievements={selectedLecturer.achievements} />
-          </div>
-        </main>
-      )}
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/lecturers" element={<LecturersPage />} />
+        <Route path="/lecturers/:id" element={<LecturerDetailPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Layout>
   );
 }
 

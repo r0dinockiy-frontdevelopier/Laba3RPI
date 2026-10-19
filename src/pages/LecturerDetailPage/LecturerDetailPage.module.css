@@ -1,0 +1,64 @@
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.backBtn {
+  padding: 10px 16px;
+  background: #ffffff;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #3a6ea5;
+  margin-bottom: 20px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.backBtn:hover {
+  background: #f0f7ff;
+  border-color: #89b4e5;
+}
+
+.pagesWrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.notFoundTitle {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.8rem;
+  color: #212529;
+}
+
+.notFoundText {
+  margin: 0 0 1.5rem 0;
+  color: #6b7280;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.allLink {
+  color: #3a6ea5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.allLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "before": {
+    "fcpMedian": 100,
+    "lighthouse": {
+      "performanceScore": 90,
+      "fcp": 2104.5819,
+      "lcp": 3304.5818999999997,
+      "speedIndex": 2104.5819,
+      "tbt": 0,
+      "cls": 0,
+      "interactive": 3304.5819,
+      "totalByteWeight": 2822021,
+      "bootupTime": 53.79200000000001,
+      "mainThreadWork": 494.26400000000024
+    }
+  },
+  "afterHome": {
+    "fcpMedian": 96,
+    "lighthouse": {
+      "performanceScore": 87,
+      "fcp": 2403.9959,
+      "lcp": 3603.9959,
+      "speedIndex": 2403.9959,
+      "tbt": 0,
+      "cls": 0,
+      "interactive": 3603.9959,
+      "totalByteWeight": 563346,
+      "bootupTime": 62.59999999999988,
+      "mainThreadWork": 294.11599999999993
+    }
+  },
+  "afterCatalog": {
+    "fcpMedian": 84,
+    "lighthouse": {
+      "performanceScore": 94,
+      "fcp": 2405.0173,
+      "lcp": 2554.2534,
+      "speedIndex": 2405.0173,
+      "tbt": 3.5,
+      "cls": 0,
+      "interactive": 2583.6173,
+      "totalByteWeight": 2633491,
+      "bootupTime": 81.63199999999996,
+      "mainThreadWork": 380.68800000000033
+    }
+  }
+}

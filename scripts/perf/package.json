@@ -1,0 +1,19 @@
+{
+  "name": "zoomagazin-perf",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Скрипты замеров производительности (Lighthouse + Puppeteer/CDP) для отчёта по рефакторингу навигации",
+  "scripts": {
+    "serve:after": "node serve.mjs ../../dist 4180",
+    "serve:before": "node serve.mjs ../../baseline/dist-before 4182",
+    "serve:before-instrumented": "node serve.mjs ../../baseline/dist-before-instrumented 4181",
+    "measure": "node run-all.mjs",
+    "bundle": "node bundle-size.mjs",
+    "screens": "node capture.mjs"
+  },
+  "dependencies": {
+    "lighthouse": "^12.2.1",
+    "puppeteer-core": "^23.6.0"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "version": "after",
+  "base": "http://127.0.0.1:4180",
+  "home": {
+    "fcp": 112,
+    "domContentLoaded": 52,
+    "loadEvent": 52,
+    "jsTransferSize": 782,
+    "snapshot": {
+      "url": "/",
+      "rootTextLength": 1283,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы — признанные специалисты в сво"
+    },
+    "rendersOnMount": 0,
+    "consoleErrors": []
+  },
+  "navigateToLecturers": {
+    "ms": 443,
+    "renders": 10,
+    "cards": 10,
+    "snapshot": {
+      "url": "/lecturers",
+      "rootTextLength": 769,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
+    },
+    "errors": []
+  },
+  "search": {
+    "perKeystroke": [
+      {
+        "value": "П",
+        "renders": 8,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович",
+          "Фёдоров Алексей Михайлович",
+          "Лебедев Константин Андреевич",
+          "Смирнова Елена Викторовна",
+          "Морозова Анна Павловна",
+          "Козлова Ирина Николаевна",
+          "Тихонова Мария Сергеевна"
+        ]
+      },
+      {
+        "value": "Пе",
+        "renders": 2,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович"
+        ]
+      },
+      {
+        "value": "Пет",
+        "renders": 2,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович"
+        ]
+      },
+      {
+        "value": "Петр",
+        "renders": 2,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович"
+        ]
+      },
+      {
+        "value": "Петро",
+        "renders": 2,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович"
+        ]
+      },
+      {
+        "value": "Петров",
+        "renders": 2,
+        "renderedNames": [
+          "Петров Дмитрий Сергеевич",
+          "Николаев Игорь Петрович"
+        ]
+      }
+    ],
+    "inputFound": true,
+    "clearRenders": 0
+  },
+  "click": {
+    "ms": 666,
+    "renders": 0,
+    "snapshot": {
+      "url": "/lecturers/1",
+      "rootTextLength": 2515,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти ← Назад к списку Петров Дмитрий Сергеевич О"
+    },
+    "heading": "Петров Дмитрий Сергеевич",
+    "errors": []
+  },
+  "backButton": {
+    "ms": 536,
+    "snapshot": {
+      "url": "/lecturers",
+      "rootTextLength": 769,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
+    },
+    "renders": 10,
+    "errors": []
+  },
+  "browserBack": {
+    "pageBeforeGoBack": {
+      "url": "/lecturers/1",
+      "rootTextLength": 2515,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти ← Назад к списку Петров Дмитрий Сергеевич О"
+    },
+    "pageAfterGoBack": {
+      "url": "/lecturers",
+      "rootTextLength": 769,
+      "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
+    }
+  },
+  "deepLink": {
+    "url": "/lecturers/3",
+    "rootTextLength": 2613,
+    "firstText": "Лекторы. Главная Лекторы О нас Войти ← Назад к списку Николаев Игорь Петрович Об",
+    "heading": "Николаев Игорь Петрович"
+  },
+  "reloadOnProfile": {
+    "url": "/lecturers/3",
+    "rootTextLength": 2613,
+    "firstText": "Лекторы. Главная Лекторы О нас Войти ← Назад к списку Николаев Игорь Петрович Об",
+    "heading": "Николаев Игорь Петрович"
+  },
+  "unknownLecturer": {
+    "url": "/lecturers/999",
+    "rootTextLength": 214,
+    "firstText": "Лекторы. Главная Лекторы О нас Войти Лектор не найден В адресе указан id «999», ",
+    "heading": "Лектор не найден"
+  },
+  "notFound": {
+    "url": "/kakaya-to-netakaya-stranica",
+    "rootTextLength": 246,
+    "firstText": "Лекторы. Главная Лекторы О нас Войти 404 Страница не найдена По адресу /kakaya-t",
+    "heading": "Страница не найдена",
+    "errors": []
+  },
+  "menu": [
+    {
+      "label": "Лекторы",
+      "ms": 390,
+      "snapshot": {
+        "url": "/lecturers",
+        "rootTextLength": 769,
+        "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
+      },
+      "whiteScreen": false,
+      "errors": [],
+      "activeLink": [
+        "Лекторы"
+      ]
+    },
+    {
+      "label": "О нас",
+      "ms": 385,
+      "snapshot": {
+        "url": "/about",
+        "rootTextLength": 959,
+        "firstText": "Лекторы. Главная Лекторы О нас Войти О нас Наша учебная платформа соединяет комп"
+      },
+      "whiteScreen": false,
+      "errors": [],
+      "activeLink": [
+        "О нас"
+      ]
+    },
+    {
+      "label": "Главная",
+      "ms": 375,
+      "snapshot": {
+        "url": "/",
+        "rootTextLength": 1283,
+        "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы — признанные специалисты в сво"
+      },
+      "whiteScreen": false,
+      "errors": [],
+      "activeLink": [
+        "Главная"
+      ]
+    }
+  ],
+  "catalogDirectLoad": {
+    "fcp": 76,
+    "domContentLoaded": 34,
+    "loadEvent": 34,
+    "jsTransferSize": 782,
+    "renders": 10,
+    "cards": 10,
+    "errors": []
+  }
+}

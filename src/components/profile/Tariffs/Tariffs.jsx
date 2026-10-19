@@ -1,4 +1,5 @@
 import styles from './Tariffs.module.css';
+
 const Tariffs = ({ tariffs }) => (
   <div className={styles.container}>
     <h3>Тарифы</h3>
@@ -12,4 +13,5 @@ const Tariffs = ({ tariffs }) => (
     </ul>
   </div>
 );
+
 export default Tariffs;

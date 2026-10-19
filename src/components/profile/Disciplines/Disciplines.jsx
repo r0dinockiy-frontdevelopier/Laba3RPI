@@ -1,4 +1,5 @@
 import styles from './Disciplines.module.css';
+
 const Disciplines = ({ disciplines }) => (
   <div className={styles.container}>
     <h3>Преподаваемые дисциплины</h3>
@@ -10,4 +11,5 @@ const Disciplines = ({ disciplines }) => (
     ))}
   </div>
 );
+
 export default Disciplines;

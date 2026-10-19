@@ -1,0 +1,116 @@
+{
+  "version": "before",
+  "base": "http://127.0.0.1:4181",
+  "home": {
+    "fcp": 112,
+    "domContentLoaded": 46,
+    "loadEvent": 47,
+    "jsTransferSize": 779,
+    "rendersOnMount": 10,
+    "cards": 10,
+    "snapshot": {
+      "url": "/",
+      "rootTextLength": 2027,
+      "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+    },
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED",
+      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED",
+      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED"
+    ]
+  },
+  "click": {
+    "ms": 732,
+    "renders": 0,
+    "consoleErrors": [],
+    "snapshot": {
+      "url": "/",
+      "rootTextLength": 2458,
+      "firstText": "Главная Партнеры О нас Лекторы Войти ← Назад к списку Петров Дмитрий Сергеевич О"
+    },
+    "heading": "Петров Дмитрий Сергеевич"
+  },
+  "backButton": {
+    "found": true,
+    "ms": 622,
+    "snapshot": {
+      "url": "/",
+      "rootTextLength": 2027,
+      "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+    },
+    "renders": 10
+  },
+  "browserBack": {
+    "pageBeforeGoBack": {
+      "url": "/",
+      "rootTextLength": 2458,
+      "firstText": "Главная Партнеры О нас Лекторы Войти ← Назад к списку Петров Дмитрий Сергеевич О"
+    },
+    "pageAfterGoBack": {
+      "url": "blank",
+      "rootTextLength": 0,
+      "firstText": ""
+    }
+  },
+  "deepLink": {
+    "url": "/lecturers/3",
+    "rootTextLength": 2027,
+    "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво",
+    "headings": [
+      "О нас",
+      "Партнёры",
+      "Наши лекторы"
+    ]
+  },
+  "reloadOnProfile": {
+    "url": "/",
+    "rootTextLength": 2027,
+    "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+  },
+  "menu": [
+    {
+      "label": "Партнеры",
+      "found": true,
+      "snapshot": {
+        "url": "/",
+        "rootTextLength": 2027,
+        "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+      },
+      "whiteScreen": false,
+      "errors": []
+    },
+    {
+      "label": "О нас",
+      "found": true,
+      "snapshot": {
+        "url": "/",
+        "rootTextLength": 2027,
+        "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+      },
+      "whiteScreen": false,
+      "errors": []
+    },
+    {
+      "label": "Лекторы",
+      "found": true,
+      "snapshot": {
+        "url": "/",
+        "rootTextLength": 2027,
+        "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+      },
+      "whiteScreen": false,
+      "errors": []
+    },
+    {
+      "label": "Главная",
+      "found": true,
+      "snapshot": {
+        "url": "/",
+        "rootTextLength": 2027,
+        "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
+      },
+      "whiteScreen": false,
+      "errors": []
+    }
+  ]
+}

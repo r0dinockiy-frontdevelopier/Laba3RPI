@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Эталонная сборка «ДО» рефакторинга и инструменты замеров
+baseline
+.perf
+.npm-cache
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

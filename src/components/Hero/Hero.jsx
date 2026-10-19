@@ -1,12 +1,12 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <section id="home" className={styles.hero}>
+    <section className={styles.hero}>
       <div className={styles.textContainer}>
         <h1>Наши лекторы — признанные специалисты в своих областях, готовые делиться опытом и знаниями.</h1>
-        <a href="#lecturers" className={styles.btn}>Найти лектора</a>
+        <Link to="/lecturers" className={styles.btn}>Найти лектора</Link>
       </div>
     </section>
   );

@@ -1,0 +1,71 @@
+{
+  "before": {
+    "samples": [
+      {
+        "fcp": 100,
+        "domContentLoaded": 45,
+        "loadEvent": 45,
+        "jsTransferSize": 779
+      },
+      {
+        "fcp": 124,
+        "domContentLoaded": 41,
+        "loadEvent": 41,
+        "jsTransferSize": 779
+      },
+      {
+        "fcp": 96,
+        "domContentLoaded": 34,
+        "loadEvent": 34,
+        "jsTransferSize": 779
+      }
+    ],
+    "medianFcp": 100
+  },
+  "afterHome": {
+    "samples": [
+      {
+        "fcp": 96,
+        "domContentLoaded": 48,
+        "loadEvent": 48,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 88,
+        "domContentLoaded": 40,
+        "loadEvent": 40,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 104,
+        "domContentLoaded": 43,
+        "loadEvent": 43,
+        "jsTransferSize": 782
+      }
+    ],
+    "medianFcp": 96
+  },
+  "afterCatalog": {
+    "samples": [
+      {
+        "fcp": 84,
+        "domContentLoaded": 43,
+        "loadEvent": 43,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 112,
+        "domContentLoaded": 49,
+        "loadEvent": 49,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 84,
+        "domContentLoaded": 38,
+        "loadEvent": 38,
+        "jsTransferSize": 782
+      }
+    ],
+    "medianFcp": 84
+  }
+}

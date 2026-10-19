@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Partners from "./components/Partners/Partners";
-import LecturerCard from "./components/LecturerCard/LecturerCard";
+import LecturerSearch from "./components/LecturerSearch/LecturerSearch";
 import PersonInfo from "./components/PersonInfo/PersonInfo";
 import Disciplines from "./pages/Disciplines/Disciplines";
 import Tariffs from "./pages/Tariffs/Tariffs";
@@ -25,15 +25,10 @@ function App() {
           <Partners />
           <section id="lecturers" className={styles.lecturersSection}>
             <h2 className={styles.sectionTitle}>Наши лекторы</h2>
-            <div className={styles.grid}>
-              {lecturers.map((lecturer) => (
-                <LecturerCard
-                  key={lecturer.id}
-                  lecturer={lecturer}
-                  onClick={() => setSelectedLecturer(lecturer)}
-                />
-              ))}
-            </div>
+            <LecturerSearch
+              lecturers={lecturers}
+              onSelect={setSelectedLecturer}
+            />
           </section>
         </main>
       ) : (

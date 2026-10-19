@@ -15,24 +15,10 @@
   color: #212529;
 }
 
-.grid {
-  display: grid;
-  /* auto-fit + minmax делает сетку адаптивной */
-  grid-template-columns: repeat(auto-fit, minmax(240px, 260px));
-  gap: 2rem;
-  /* Центрируем сами карточки в контейнере, чтобы последний ряд не прижимался влево */
-  justify-content: center;
-  justify-items: center;
-}
-
 /* На мобильных одна колонка */
 @media (max-width: 768px) {
   .lecturersSection {
     padding: 2rem 1rem;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
   }
 }
 .profile {

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Partners.module.css';
 import iclLogo from '../../assets/ICL.jpg';
 import tatneftLogo from '../../assets/tatneft.png';

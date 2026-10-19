@@ -2,54 +2,60 @@
   "before": {
     "samples": [
       {
-        "fcp": 100,
-        "domContentLoaded": 45,
-        "loadEvent": 45,
-        "jsTransferSize": 779
-      },
-      {
         "fcp": 124,
-        "domContentLoaded": 41,
-        "loadEvent": 41,
+        "domContentLoaded": 46,
+        "loadEvent": 46,
         "jsTransferSize": 779
       },
       {
-        "fcp": 96,
-        "domContentLoaded": 34,
-        "loadEvent": 34,
+        "fcp": 112,
+        "domContentLoaded": 43,
+        "loadEvent": 43,
+        "jsTransferSize": 779
+      },
+      {
+        "fcp": 128,
+        "domContentLoaded": 48,
+        "loadEvent": 49,
         "jsTransferSize": 779
       }
     ],
-    "medianFcp": 100
+    "medianFcp": 124
   },
   "afterHome": {
     "samples": [
       {
-        "fcp": 96,
-        "domContentLoaded": 48,
-        "loadEvent": 48,
+        "fcp": 128,
+        "domContentLoaded": 56,
+        "loadEvent": 57,
         "jsTransferSize": 782
       },
       {
-        "fcp": 88,
-        "domContentLoaded": 40,
-        "loadEvent": 40,
-        "jsTransferSize": 782
-      },
-      {
-        "fcp": 104,
+        "fcp": 108,
         "domContentLoaded": 43,
-        "loadEvent": 43,
+        "loadEvent": 44,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 116,
+        "domContentLoaded": 44,
+        "loadEvent": 44,
         "jsTransferSize": 782
       }
     ],
-    "medianFcp": 96
+    "medianFcp": 116
   },
   "afterCatalog": {
     "samples": [
       {
-        "fcp": 84,
-        "domContentLoaded": 43,
+        "fcp": 100,
+        "domContentLoaded": 49,
+        "loadEvent": 49,
+        "jsTransferSize": 782
+      },
+      {
+        "fcp": 96,
+        "domContentLoaded": 42,
         "loadEvent": 43,
         "jsTransferSize": 782
       },
@@ -58,14 +64,8 @@
         "domContentLoaded": 49,
         "loadEvent": 49,
         "jsTransferSize": 782
-      },
-      {
-        "fcp": 84,
-        "domContentLoaded": 38,
-        "loadEvent": 38,
-        "jsTransferSize": 782
       }
     ],
-    "medianFcp": 84
+    "medianFcp": 100
   }
 }

@@ -18,65 +18,12 @@
   line-height: 1.6;
 }
 
-.searchRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2.5rem;
-}
-
-.search {
-  width: 100%;
-  max-width: 420px;
-  padding: 12px 16px;
-  font-size: 1rem;
-  font-family: inherit;
-  border: 1px solid #cfd8e3;
-  border-radius: 8px;
-  outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.search:focus {
-  border-color: #89b4e5;
-  box-shadow: 0 0 0 3px rgba(137, 180, 229, 0.25);
-}
-
-.counter {
-  font-size: 0.95rem;
-  color: #6b7280;
-}
-
-.grid {
-  display: grid;
-  /* auto-fit + minmax делает сетку адаптивной */
-  grid-template-columns: repeat(auto-fit, minmax(240px, 260px));
-  gap: 2rem;
-  /* Центрируем сами карточки в контейнере, чтобы последний ряд не прижимался влево */
-  justify-content: center;
-  justify-items: center;
-}
-
-.empty {
-  padding: 2rem;
-  color: #6b7280;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-/* На мобильных одна колонка */
+/* На мобильных одна колонка — сетка карточек живёт в LecturerSearch.module.css */
 @media (max-width: 768px) {
   .section {
     padding: 2rem 1rem;
   }
   .title {
     font-size: 1.5rem;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
   }
 }

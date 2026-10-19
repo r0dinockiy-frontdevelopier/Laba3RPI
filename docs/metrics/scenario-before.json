@@ -2,9 +2,9 @@
   "version": "before",
   "base": "http://127.0.0.1:4181",
   "home": {
-    "fcp": 112,
-    "domContentLoaded": 46,
-    "loadEvent": 47,
+    "fcp": 160,
+    "domContentLoaded": 56,
+    "loadEvent": 56,
     "jsTransferSize": 779,
     "rendersOnMount": 10,
     "cards": 10,
@@ -13,14 +13,10 @@
       "rootTextLength": 2027,
       "firstText": "Главная Партнеры О нас Лекторы Войти Наши лекторы — признанные специалисты в сво"
     },
-    "consoleErrors": [
-      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED",
-      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED",
-      "Failed to load resource: net::ERR_CERT_VERIFIER_CHANGED"
-    ]
+    "consoleErrors": []
   },
   "click": {
-    "ms": 732,
+    "ms": 733,
     "renders": 0,
     "consoleErrors": [],
     "snapshot": {
@@ -32,7 +28,7 @@
   },
   "backButton": {
     "found": true,
-    "ms": 622,
+    "ms": 643,
     "snapshot": {
       "url": "/",
       "rootTextLength": 2027,

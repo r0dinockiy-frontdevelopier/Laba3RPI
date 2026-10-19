@@ -32,31 +32,36 @@ export async function runAfter(base) {
     errors: [...logger.errors],
   };
 
-  // ---------- 3. Ввод в строку поиска ----------
-  result.search = { perKeystroke: [] };
+  // ---------- 3. Ввод в строку поиска (поиск с debounce 300 мс) ----------
+  result.search = {};
   const search = await page.$('input[type="search"]');
   result.search.inputFound = Boolean(search);
   if (search) {
-    for (const chunk of ['П', 'е', 'т', 'р', 'о', 'в']) {
-      logger.reset();
-      await search.type(chunk, { delay: 30 });
-      await sleep(250);
-      result.search.perKeystroke.push({
-        value: await page.$eval('input[type="search"]', (el) => el.value),
-        renders: logger.renderLines().length,
-        renderedNames: logger
-          .renderLines()
-          .map((m) => m.text.replace('Рендер карточки: ', '')),
-      });
-    }
-
     logger.reset();
-    await page.$eval('input[type="search"]', (el) => {
-      el.value = '';
-      el.dispatchEvent(new Event('input', { bubbles: true }));
-    });
-    await sleep(300);
+    await search.type('Петров', { delay: 30 });
+
+    // сразу после последнего нажатия: debounce ещё не истёк
+    const duringTyping = logger.renderLines();
+    await sleep(600);
+    const afterDebounce = logger.renderLines();
+
+    result.search.typedValue = await page.$eval('input[type="search"]', (el) => el.value);
+    result.search.rendersDuringTyping = duringTyping.length;
+    result.search.rendersAfterDebounce = afterDebounce.length - duringTyping.length;
+    result.search.renderedNamesAfterDebounce = afterDebounce
+      .slice(duringTyping.length)
+      .map((m) => m.text.replace('Рендер карточки: ', ''));
+
+    // очистка поля с клавиатуры — как это делает пользователь
+    logger.reset();
+    await page.click('input[type="search"]');
+    await page.keyboard.down('Control');
+    await page.keyboard.press('KeyA');
+    await page.keyboard.up('Control');
+    await page.keyboard.press('Backspace');
+    await sleep(600);
     result.search.clearRenders = logger.renderLines().length;
+    result.search.clearedValue = await page.$eval('input[type="search"]', (el) => el.value);
   }
 
   // ---------- 4. Клик по карточке лектора ----------

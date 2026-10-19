@@ -5,22 +5,71 @@
       "run": 1,
       "performanceScore": 94,
       "fcp": {
-        "value": 2404.2534,
+        "value": 2405.4274,
         "display": "2.4 s",
         "score": 0.71
       },
       "lcp": {
-        "value": 2554.2534,
+        "value": 2555.4274,
         "display": "2.6 s",
         "score": 0.88
       },
       "speedIndex": {
-        "value": 2404.2534,
+        "value": 2405.4274,
         "display": "2.4 s",
         "score": 0.98
       },
       "tbt": {
-        "value": 5.5,
+        "value": 34,
+        "display": "30 ms",
+        "score": 1
+      },
+      "cls": {
+        "value": 0,
+        "display": "0",
+        "score": 1
+      },
+      "interactive": {
+        "value": 2639.4274000000005,
+        "display": "2.6 s",
+        "score": 0.98
+      },
+      "totalByteWeight": {
+        "value": 2633944,
+        "display": "Total size was 2,572 KiB",
+        "score": 1
+      },
+      "bootupTime": {
+        "value": 116.66000000000038,
+        "display": "0.1 s",
+        "score": 1
+      },
+      "mainThreadWork": {
+        "value": 540.9000000000008,
+        "display": "0.5 s",
+        "score": 1
+      }
+    },
+    {
+      "run": 2,
+      "performanceScore": 94,
+      "fcp": {
+        "value": 2406.3394,
+        "display": "2.4 s",
+        "score": 0.7
+      },
+      "lcp": {
+        "value": 2556.3394,
+        "display": "2.6 s",
+        "score": 0.88
+      },
+      "speedIndex": {
+        "value": 2406.3394,
+        "display": "2.4 s",
+        "score": 0.98
+      },
+      "tbt": {
+        "value": 12.5,
         "display": "10 ms",
         "score": 1
       },
@@ -30,71 +79,22 @@
         "score": 1
       },
       "interactive": {
-        "value": 2587.8034000000002,
+        "value": 2597.5894,
         "display": "2.6 s",
         "score": 0.98
       },
       "totalByteWeight": {
-        "value": 2633493,
+        "value": 2633941,
         "display": "Total size was 2,572 KiB",
         "score": 1
       },
       "bootupTime": {
-        "value": 82.56799999999993,
+        "value": 104.52000000000034,
         "display": "0.1 s",
         "score": 1
       },
       "mainThreadWork": {
-        "value": 380.68800000000033,
-        "display": "0.4 s",
-        "score": 1
-      }
-    },
-    {
-      "run": 2,
-      "performanceScore": 94,
-      "fcp": {
-        "value": 2405.0173,
-        "display": "2.4 s",
-        "score": 0.71
-      },
-      "lcp": {
-        "value": 2555.0173,
-        "display": "2.6 s",
-        "score": 0.88
-      },
-      "speedIndex": {
-        "value": 2405.0173,
-        "display": "2.4 s",
-        "score": 0.98
-      },
-      "tbt": {
-        "value": 1,
-        "display": "0 ms",
-        "score": 1
-      },
-      "cls": {
-        "value": 0,
-        "display": "0",
-        "score": 1
-      },
-      "interactive": {
-        "value": 2583.6173,
-        "display": "2.6 s",
-        "score": 0.98
-      },
-      "totalByteWeight": {
-        "value": 2633491,
-        "display": "Total size was 2,572 KiB",
-        "score": 1
-      },
-      "bootupTime": {
-        "value": 77.73999999999998,
-        "display": "0.1 s",
-        "score": 1
-      },
-      "mainThreadWork": {
-        "value": 372.95200000000034,
+        "value": 437.0760000000007,
         "display": "0.4 s",
         "score": 1
       }
@@ -103,23 +103,23 @@
       "run": 3,
       "performanceScore": 94,
       "fcp": {
-        "value": 2445.3536999999997,
+        "value": 2403.7469,
         "display": "2.4 s",
-        "score": 0.69
+        "score": 0.71
       },
       "lcp": {
-        "value": 2445.3536999999997,
-        "display": "2.4 s",
-        "score": 0.91
+        "value": 2553.7469,
+        "display": "2.6 s",
+        "score": 0.88
       },
       "speedIndex": {
-        "value": 2445.3536999999997,
+        "value": 2403.7469,
         "display": "2.4 s",
         "score": 0.98
       },
       "tbt": {
-        "value": 3.5,
-        "display": "0 ms",
+        "value": 11,
+        "display": "10 ms",
         "score": 1
       },
       "cls": {
@@ -128,22 +128,22 @@
         "score": 1
       },
       "interactive": {
-        "value": 2476.7037,
-        "display": "2.5 s",
+        "value": 2593.3469000000005,
+        "display": "2.6 s",
         "score": 0.98
       },
       "totalByteWeight": {
-        "value": 2633491,
+        "value": 2633940,
         "display": "Total size was 2,572 KiB",
         "score": 1
       },
       "bootupTime": {
-        "value": 81.63199999999996,
+        "value": 106.04400000000028,
         "display": "0.1 s",
         "score": 1
       },
       "mainThreadWork": {
-        "value": 461.84000000000026,
+        "value": 530.9920000000014,
         "display": "0.5 s",
         "score": 1
       }
@@ -151,14 +151,14 @@
   ],
   "median": {
     "performanceScore": 94,
-    "fcp": 2405.0173,
-    "lcp": 2554.2534,
-    "speedIndex": 2405.0173,
-    "tbt": 3.5,
+    "fcp": 2405.4274,
+    "lcp": 2555.4274,
+    "speedIndex": 2405.4274,
+    "tbt": 12.5,
     "cls": 0,
-    "interactive": 2583.6173,
-    "totalByteWeight": 2633491,
-    "bootupTime": 81.63199999999996,
-    "mainThreadWork": 380.68800000000033
+    "interactive": 2597.5894,
+    "totalByteWeight": 2633941,
+    "bootupTime": 106.04400000000028,
+    "mainThreadWork": 530.9920000000014
   }
 }

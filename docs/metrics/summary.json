@@ -1,47 +1,47 @@
 {
   "before": {
-    "fcpMedian": 100,
+    "fcpMedian": 124,
     "lighthouse": {
       "performanceScore": 90,
-      "fcp": 2104.5819,
-      "lcp": 3304.5818999999997,
-      "speedIndex": 2104.5819,
+      "fcp": 2105.3225,
+      "lcp": 3305.2711,
+      "speedIndex": 2105.3225,
       "tbt": 0,
       "cls": 0,
-      "interactive": 3304.5819,
-      "totalByteWeight": 2822021,
-      "bootupTime": 53.79200000000001,
-      "mainThreadWork": 494.26400000000024
+      "interactive": 3305.2711,
+      "totalByteWeight": 2679235,
+      "bootupTime": 76.42400000000004,
+      "mainThreadWork": 551.5520000000001
     }
   },
   "afterHome": {
-    "fcpMedian": 96,
+    "fcpMedian": 116,
     "lighthouse": {
       "performanceScore": 87,
-      "fcp": 2403.9959,
-      "lcp": 3603.9959,
-      "speedIndex": 2403.9959,
-      "tbt": 0,
+      "fcp": 2404.6153,
+      "lcp": 3604.6153,
+      "speedIndex": 2404.6153,
+      "tbt": 2,
       "cls": 0,
-      "interactive": 3603.9959,
-      "totalByteWeight": 563346,
-      "bootupTime": 62.59999999999988,
-      "mainThreadWork": 294.11599999999993
+      "interactive": 3633.6546000000003,
+      "totalByteWeight": 563797,
+      "bootupTime": 81.79199999999996,
+      "mainThreadWork": 436.58800000000036
     }
   },
   "afterCatalog": {
-    "fcpMedian": 84,
+    "fcpMedian": 100,
     "lighthouse": {
       "performanceScore": 94,
-      "fcp": 2405.0173,
-      "lcp": 2554.2534,
-      "speedIndex": 2405.0173,
-      "tbt": 3.5,
+      "fcp": 2405.4274,
+      "lcp": 2555.4274,
+      "speedIndex": 2405.4274,
+      "tbt": 12.5,
       "cls": 0,
-      "interactive": 2583.6173,
-      "totalByteWeight": 2633491,
-      "bootupTime": 81.63199999999996,
-      "mainThreadWork": 380.68800000000033
+      "interactive": 2597.5894,
+      "totalByteWeight": 2633941,
+      "bootupTime": 106.04400000000028,
+      "mainThreadWork": 530.9920000000014
     }
   }
 }

@@ -3,8 +3,8 @@
   "base": "http://127.0.0.1:4180",
   "home": {
     "fcp": 112,
-    "domContentLoaded": 52,
-    "loadEvent": 52,
+    "domContentLoaded": 49,
+    "loadEvent": 49,
     "jsTransferSize": 782,
     "snapshot": {
       "url": "/",
@@ -15,78 +15,30 @@
     "consoleErrors": []
   },
   "navigateToLecturers": {
-    "ms": 443,
+    "ms": 460,
     "renders": 10,
     "cards": 10,
     "snapshot": {
       "url": "/lecturers",
-      "rootTextLength": 769,
+      "rootTextLength": 925,
       "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
     },
     "errors": []
   },
   "search": {
-    "perKeystroke": [
-      {
-        "value": "П",
-        "renders": 8,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович",
-          "Фёдоров Алексей Михайлович",
-          "Лебедев Константин Андреевич",
-          "Смирнова Елена Викторовна",
-          "Морозова Анна Павловна",
-          "Козлова Ирина Николаевна",
-          "Тихонова Мария Сергеевна"
-        ]
-      },
-      {
-        "value": "Пе",
-        "renders": 2,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович"
-        ]
-      },
-      {
-        "value": "Пет",
-        "renders": 2,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович"
-        ]
-      },
-      {
-        "value": "Петр",
-        "renders": 2,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович"
-        ]
-      },
-      {
-        "value": "Петро",
-        "renders": 2,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович"
-        ]
-      },
-      {
-        "value": "Петров",
-        "renders": 2,
-        "renderedNames": [
-          "Петров Дмитрий Сергеевич",
-          "Николаев Игорь Петрович"
-        ]
-      }
-    ],
     "inputFound": true,
-    "clearRenders": 0
+    "typedValue": "Петров",
+    "rendersDuringTyping": 60,
+    "rendersAfterDebounce": 2,
+    "renderedNamesAfterDebounce": [
+      "Петров Дмитрий Сергеевич",
+      "Николаев Игорь Петрович"
+    ],
+    "clearRenders": 12,
+    "clearedValue": ""
   },
   "click": {
-    "ms": 666,
+    "ms": 678,
     "renders": 0,
     "snapshot": {
       "url": "/lecturers/1",
@@ -97,10 +49,10 @@
     "errors": []
   },
   "backButton": {
-    "ms": 536,
+    "ms": 645,
     "snapshot": {
       "url": "/lecturers",
-      "rootTextLength": 769,
+      "rootTextLength": 925,
       "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
     },
     "renders": 10,
@@ -114,7 +66,7 @@
     },
     "pageAfterGoBack": {
       "url": "/lecturers",
-      "rootTextLength": 769,
+      "rootTextLength": 925,
       "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
     }
   },
@@ -146,10 +98,10 @@
   "menu": [
     {
       "label": "Лекторы",
-      "ms": 390,
+      "ms": 399,
       "snapshot": {
         "url": "/lecturers",
-        "rootTextLength": 769,
+        "rootTextLength": 925,
         "firstText": "Лекторы. Главная Лекторы О нас Войти Наши лекторы Выберите специалиста, чтобы по"
       },
       "whiteScreen": false,
@@ -160,7 +112,7 @@
     },
     {
       "label": "О нас",
-      "ms": 385,
+      "ms": 394,
       "snapshot": {
         "url": "/about",
         "rootTextLength": 959,
@@ -174,7 +126,7 @@
     },
     {
       "label": "Главная",
-      "ms": 375,
+      "ms": 394,
       "snapshot": {
         "url": "/",
         "rootTextLength": 1283,
@@ -188,9 +140,9 @@
     }
   ],
   "catalogDirectLoad": {
-    "fcp": 76,
-    "domContentLoaded": 34,
-    "loadEvent": 34,
+    "fcp": 108,
+    "domContentLoaded": 49,
+    "loadEvent": 49,
     "jsTransferSize": 782,
     "renders": 10,
     "cards": 10,

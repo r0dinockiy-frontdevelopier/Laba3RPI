@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T10:29:41.609Z",
+  "timestamp": "2026-10-19T10:45:37.411Z",
   "before": {
     "dir": "C:\\Users\\igoto\\OneDrive\\Рабочий стол\\7 семестр\\РПИ\\Zoomagazin\\baseline\\dist-before",
     "files": [
@@ -78,16 +78,16 @@
         "brotli": 32978
       },
       {
-        "file": "assets/index-DgQVrb5i.js",
-        "raw": 292308,
-        "gzip": 90679,
-        "brotli": 78664
+        "file": "assets/index-DBfXz3di.css",
+        "raw": 12321,
+        "gzip": 3033,
+        "brotli": 2645
       },
       {
-        "file": "assets/index-tFv0214Y.css",
-        "raw": 12309,
-        "gzip": 3003,
-        "brotli": 2620
+        "file": "assets/index-Dr__6mdf.js",
+        "raw": 292747,
+        "gzip": 90900,
+        "brotli": 78853
       },
       {
         "file": "assets/leccia-DewGuNps.jpg",
@@ -117,53 +117,53 @@
         "file": "index.html",
         "raw": 482,
         "gzip": 336,
-        "brotli": 210
+        "brotli": 198
       }
     ],
     "js": {
-      "raw": 292308,
-      "gzip": 90679,
-      "brotli": 78664
+      "raw": 292747,
+      "gzip": 90900,
+      "brotli": 78853
     },
     "css": {
-      "raw": 12309,
-      "gzip": 3003,
-      "brotli": 2620
+      "raw": 12321,
+      "gzip": 3033,
+      "brotli": 2645
     },
     "images": {
       "raw": 261811
     },
-    "totalRaw": 566910,
-    "totalGzip": 334606
+    "totalRaw": 567361,
+    "totalGzip": 334857
   },
   "delta": {
     "jsRaw": {
       "before": 247206,
-      "after": 292308,
-      "diff": 45102,
-      "diffPercent": 18.2
+      "after": 292747,
+      "diff": 45541,
+      "diffPercent": 18.4
     },
     "jsGzip": {
       "before": 75803,
-      "after": 90679,
-      "diff": 14876,
-      "diffPercent": 19.6
+      "after": 90900,
+      "diff": 15097,
+      "diffPercent": 19.9
     },
     "cssRaw": {
       "before": 7124,
-      "after": 12309,
-      "diff": 5185,
-      "diffPercent": 72.8
+      "after": 12321,
+      "diff": 5197,
+      "diffPercent": 73
     },
     "totalRaw": {
       "before": 516620,
-      "after": 566910,
-      "diff": 50290
+      "after": 567361,
+      "diff": 50741
     },
     "totalGzip": {
       "before": 318780,
-      "after": 334606,
-      "diff": 15826
+      "after": 334857,
+      "diff": 16077
     },
     "totalKb": {
       "before": 505
